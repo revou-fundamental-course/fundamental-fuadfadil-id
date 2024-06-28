@@ -1,0 +1,49 @@
+/* ini css */
+main{
+    padding: 32px;
+}
+.logo-icon{
+    height: 80px;
+    width: 80px;
+    background-image: url(https://png.pngtree.com/png-clipart/20200710/original/pngtree-kids-logo-png-image_4135839.jpg);
+    background-size: cover;
+    border-radius: 50%;
+}
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav>a{
+    padding-left: 30px;
+    padding-right: 30px;
+    border: 1px solid;
+}
+.banner-container{
+    height: 350px;
+    width: 100%;
+    border: 1px solid;
+}
+.profile-icon{
+    height: 80px;
+    width: 80px;
+    border: 1px solid;
+    background-size: cover;
+    border-radius: 50%;
+}
+.profile1{
+    background-image: url(../assets/1.png);
+}
+.profile2{
+    background-image: url(../assets/2.png);
+}
+.profile3{
+    background-image: url(../assets/3.png);
+}
+.profile-content{
+    display: flex;
+    justify-content: space-evenly;
+}
+.profile-item{
+    text-align: center;
+}
