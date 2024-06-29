@@ -18,6 +18,7 @@ nav>a{
     padding-left: 30px;
     padding-right: 30px;
     border: 1px solid;
+    text-decoration: none;
 }
 .banner-container{
     height: 350px;
@@ -40,10 +41,24 @@ nav>a{
 .profile3{
     background-image: url(../assets/3.png);
 }
+
+.portofolio1{
+    background-image: url(https://png.pngtree.com/png-vector/20191119/ourmid/pngtree-teacher-vector-illustration-with-black-and-white-design-teacher-icon-png-image_1996068.jpg);
+}
+.portofolio2{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXaN_Mx21IEZ3Jlb-olmJwp6XDJLyr7lcWPFYlVNKztLep9dREMFBm0KV2aOnBtZlP7-w&usqp=CAU);
+}
+.portofolio3{
+    background-image: url(https://png.pngtree.com/png-vector/20191029/ourmid/pngtree-mosque-vector-icons-emblem-concept-design-creative-symbol-icon-png-image_1870201.jpg);
+}
+
 .profile-content{
     display: flex;
     justify-content: space-evenly;
 }
 .profile-item{
+    text-align: center;
+}
+footer{
     text-align: center;
 }
